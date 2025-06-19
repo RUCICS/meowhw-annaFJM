@@ -1,0 +1,7 @@
+Version,Time (ms),Strategy
+System cat,568.1,系统自带基准
+mycat2,1009.0,带固定缓冲区
+mycat3,1209.0,对齐页大小
+mycat4,480.8,文件系统块整数倍
+mycat5,557.2,实验最优缓冲区
+mycat6,565.5,使用fadvise
